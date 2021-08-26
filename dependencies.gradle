@@ -1,0 +1,13 @@
+ext.deps = [:]
+def versions = [:]
+versions.core_ktx = "1.6.0"
+ext.versions = versions
+
+def deps = [:]
+
+//def kotlin = [:]
+//kotlin.stdlib = "org.jetbrains.kotlin:kotlin-stdlib:$versions.kotlin"
+//deps.kotlin = kotlin
+deps.core_ktx = "androidx.core:core-ktx:$versions.core_ktx"
+
+ext.deps = deps
